@@ -1,0 +1,419 @@
+body{
+    height: 3500px;
+    width: 1500px;
+    background-image: url('body1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    border: 2px solid transparent;
+    height: 140px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+
+.nav{
+    border: 2px solid transparent;
+    height: 75px;
+    margin-top: -20px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo{
+    border: 2px solid transparent;
+    height: 5px;
+    width: 340px;
+    padding-left: 40px;
+    color: rgba(255, 255, 255, 0.847);
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 540;
+}
+
+.navbars{
+    border: 2px solid transparent;
+    height: 45px;
+    width: 1050px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 30px;
+}
+.nav1 a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+select{
+    border: 2px solid white ;
+    height: 30px;
+    background-color:transparent;
+    color: rgb(255, 255, 255);
+    width: 90px;
+}
+option{
+    background-color: transparent;
+    color: rgb(1, 9, 16);
+}
+
+
+.hero{
+    border: 2px solid transparent;
+    height: 550px;
+    width: 1500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.hero1
+{
+    border: 2px solid transparent;
+    height: 350px;
+    width: 450px;
+    margin-left: 60px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  
+}
+.p{
+    border: 2px solid transparent;
+    height: 300px;
+    width: 250px;
+    color: rgb(4, 253, 232);
+    font-size: 90px;
+    margin-left: 140px;
+    margin-top: -30px;
+    font-weight: 700;
+}
+
+
+.hero2{
+    border: 2px solid transparent;
+    height: 500px;
+    width: 700px;
+}
+.p1{
+    border: 2px solid transparent;
+    color: rgb(255, 255, 255);
+    height: 100px;
+    width: 350px;
+    font-size:50px ;
+    margin-left: 30px;
+    margin-top: 0%;
+    padding-left: 30px;
+    padding-top: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.p2{
+    border: 2px solid transparent;
+    color: rgba(255, 255, 255, 0.952);
+    height: 200px;
+    width: 600px;
+    margin-left: 30px;
+    font-size: 25px;
+    padding-left: 30px;
+    padding-top: 30px;
+    margin-top: -50px;
+    opacity: 85%;
+}
+.buttons{
+    border: 2px solid transparent;
+    height: 100px;
+    width: 630px;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top:12px;
+    margin-top: -25px; 
+} 
+button{
+    height: 50px;
+    background-color: transparent;
+    font-size: 24px;
+    font-weight:normal;
+    text-decoration: none;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    border-color: rgb(255, 255, 255);
+    border-width: 1px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.content{
+    border: 2px solid white;
+    height: 1600px;
+    margin-right: 900px;
+    margin-top: 70px;
+    border-left: none;
+    border-right: none;
+
+}
+
+
+.content1{
+    border: 2px solid transparent;
+    height: 600px;
+    margin-top: 50px;
+}
+.Skill{
+    border: 2px solid transparent;
+    height: 150px;
+    width: 800px;
+    margin-top: 10px;
+    margin-left: 400px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 70px;
+    font-weight: 700;
+}
+.Skills{
+    border: 2px solid transparent;
+    height: 350px;
+    color: rgba(237, 237, 237, 0.915);
+    width: 500px;
+    font-size: 22px;
+    padding-left: 80px;
+    margin-top: 35px;
+}
+.para{
+    border: 2px solid transparent;
+    height: 35px;
+    width: 350px;
+    font-size: 23.5px;
+    color: rgb(201, 241, 255);
+    font-weight: 300;
+    font-weight: 500;
+}
+.contents{
+    border: 1px solid white;
+    margin-left: 1000px;
+
+}
+
+
+.content2{
+    border: 2px solid transparent;
+    height: 800px;
+    width: 1500px;
+    margin-top: 50px;
+   
+}
+.Project{
+    border: 2px solid transparent;
+    height: 100px;
+    width: 800px;
+    margin-top: 90px;
+    margin-left: 400px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 70px;
+    font-weight: 700;
+}
+.Projects{
+    border: 2px solid transparent;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 50px;
+}
+.amazon{
+    border: 2px solid transparent;
+    height: 600px;
+    width: 750px;
+}
+.p3{
+    border: 2px solid transparent;
+    width: 290px;
+    margin-left: 200px;
+    margin-top: 10px;
+    font-size: 30px;
+}
+.p4{
+    border: 2px solid transparent;
+    font-size: 23px;
+}
+.landingpage{
+    border: 2px solid transparent;
+    height: 600px;
+    width: 750px;
+}
+.box{
+    border: 2px solid transparent;
+    height: 430px;
+    width: 600px;
+    margin-top: 50px;
+    margin-left: 50px;
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: space-evenly;
+}
+.boxq{
+    border: 4.5px solid rgba(229, 252, 125, 0.801);
+    height: 120px;
+    width:  270px;
+    margin-top: 0px;
+}
+.boxq:hover{
+    scale: 1.65;
+    transition-duration: 0.85s;
+    border-color: transparent;
+}
+.box1{ 
+    background-image: url('amz\ \(1\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box2{
+    background-image: url('amz\ \(2\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box3{
+    background-image: url('amz\ \(3\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+.p03{
+    border: 2px solid transparent;
+    width: 380px;
+    margin-left: 200px;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.box5{
+    background-image: url('landing\ \(5\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box6{
+    background-image: url('landing\ \(6\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box7{
+    background-image: url('landing\ \(7\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+
+
+.content3{
+    border: 2px solid transparent;
+    height: 600px;
+    margin-left: 500px;
+    margin-top: 80px;
+    color: white;
+}
+.resume{
+    border: 2px solid transparent;
+    height: 90px;
+    width: 400px;
+    margin-top: 20px;
+    margin-left: 300px;
+    font-size: 70px;
+    font-weight: 700;
+}
+.resumedes{
+    border: 2px solid transparent;
+    height: 230px;
+    margin-top: 50px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.download {
+    border: 2px solid white;
+    height: 90px;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 300px;
+    font-size: 32px;
+    padding-left: 50px;
+    padding-bottom: 13.5px; 
+}
+.download a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.download :hover{
+    scale: 1.1;
+    transition-duration: 0.5s;
+    color: rgb(255, 152, 152);
+}
+
+
+.f{
+    border: 1px solid white;
+    margin-left: 800px;
+}
+
+.footer{
+    border: 2px solid transparent ;
+    height: 380px;
+    margin-top: 60px;
+    color: white;
+    font-size: 25px;
+}
+.foot{
+    margin-right: 90px;
+    margin-left: 150px;
+    margin-top: 60px;
+}
+.foot a{
+    text-decoration: none;
+    color: rgb(215, 140, 161);
+}
+
+.footend{
+    border: 1px solid white;
+    height: 90px;
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-around;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+
+.footend1{
+    padding-left: 0px;
+    color: rgba(255, 255, 255, 0.847);
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 540;
+    margin-top: 30px;
+    margin-left: 0px;
+}
+
+
+.footend2{
+    padding-left: 90px;
+    color: rgba(255, 255, 255, 0.847);
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 540;
+    margin-top: 40px;
+    margin-left: 90px;
+}
